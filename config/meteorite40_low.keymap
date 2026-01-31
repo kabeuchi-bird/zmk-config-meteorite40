@@ -38,14 +38,14 @@
         parentheses_in_one: parentheses_in_one {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LPAR &kp RPAR>;
+            bindings = <&kp ASTERISK &kp LPAR>;
             label = "PARENTHESES_IN_ONE";
         };
 
         brackets_in_one: brackets_in_one {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LBKT &kp RBKT>;
+            bindings = <&kp RBKT &kp BACKSLASH>;
             label = "BRACKETS_IN_ONE";
         };
     };
@@ -57,10 +57,10 @@
         win_default_layer {
             display-name = "BASE";
             bindings = <
-&kp Q        &kp W      &kp E      &kp R      &kp T            &kp Y       &kp U         &kp I     &kp O  &kp P
-&kp A        &kp S      &kp D      &kp F      &kp G            &kp H       &kp J         &kp K     &kp L  &kp SEMI
-&kp Z        &kp X      &kp C      &kp V      &kp B            &mkp MB1    &mkp MB2      &kp N     &kp M  &kp COMMA  &kp DOT  &lt 4 SLASH
-&lt 3 GRAVE  &kp LCTRL  &lt 2 TAB  &kp SPACE  &mt RSHFT ENTER  &lt 2 BSPC  &kp LEFT_ALT  &kp LGUI
+&kp Q        &kp W      &kp E      &kp R      &kp T            &kp Y          &kp U         &kp I     &kp O  &kp P
+&kp A        &kp S      &kp D      &kp F      &kp G            &kp H          &kp J         &kp K     &kp L  &kp SEMI
+&kp Z        &kp X      &kp C      &kp V      &kp B            &mkp MB1       &mkp MB2      &kp N     &kp M  &kp COMMA  &kp DOT  &lt 4 SLASH
+&lt 3 GRAVE  &kp LCTRL  &lt 2 TAB  &kp SPACE  &mt RSHFT ENTER  &kp BACKSPACE  &kp LEFT_ALT  &kp LGUI
             >;
         };
 
