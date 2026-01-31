@@ -57,10 +57,10 @@
         win_default_layer {
             display-name = "BASE";
             bindings = <
-&kp Q        &kp W                 &kp E      &kp R      &kp T            &kp Y       &kp U         &kp I     &kp O  &kp P
-&kp A        &kp S                 &kp D      &kp F      &kp G            &kp H       &kp J         &kp K     &kp L  &kp SEMI
-&kp Z        &kp X                 &kp C      &kp V      &kp B            &mkp MB1    &mkp MB2      &kp N     &kp M  &kp COMMA  &kp DOT  &lt 4 SLASH
-&lt 3 GRAVE  &mt LCTRL INT_HENKAN  &lt 2 TAB  &kp SPACE  &mt RSHFT ENTER  &lt 2 BSPC  &kp LEFT_ALT  &kp LGUI
+&kp Q        &kp W      &kp E      &kp R      &kp T            &kp Y       &kp U         &kp I     &kp O  &kp P
+&kp A        &kp S      &kp D      &kp F      &kp G            &kp H       &kp J         &kp K     &kp L  &kp SEMI
+&kp Z        &kp X      &kp C      &kp V      &kp B            &mkp MB1    &mkp MB2      &kp N     &kp M  &kp COMMA  &kp DOT  &lt 4 SLASH
+&lt 3 GRAVE  &kp LCTRL  &lt 2 TAB  &kp SPACE  &mt RSHFT ENTER  &lt 2 BSPC  &kp LEFT_ALT  &kp LGUI
             >;
         };
 
@@ -77,20 +77,20 @@
         layer_2 {
             display-name = "NUM / ARROW";
             bindings = <
-&kp ASTRK  &kp N7  &kp N8  &kp N9  &kp PLUS   &kp LG(LS(S))  &kp LC(MINUS)  &kp LC(EQUAL)  &kp C_VOL_DN  &kp C_VOL_UP
-&kp SLASH  &kp N4  &kp N5  &kp N6  &kp MINUS  &none          &kp LEFT       &kp UP         &kp DOWN      &kp RIGHT
-&kp N0     &kp N1  &kp N2  &kp N3  &kp DOT    &mkp MB4       &mkp MB5       &none          &kp LG(LEFT)  &kp LG(UP)    &kp LG(DOWN)  &kp LG(RIGHT)
-&trans     &trans  &trans  &trans  &trans     &trans         &trans         &trans
+&kp HOME  &kp UP_ARROW  &kp END    &trans  &brackets_in_one  &kp KP_EQUAL         &kp N7        &kp N8  &kp N9        &kp ASTERISK
+&kp LEFT  &kp DOWN      &kp RIGHT  &trans  &kp EXCLAMATION   &parentheses_in_one  &kp NUMBER_4  &kp N5  &kp NUMBER_6  &kp KP_DIVIDE
+&trans    &trans        &trans     &trans  &kp QUESTION      &mkp MB4             &mkp MB5      &kp N0  &kp NUMBER_1  &kp NUMBER_2   &kp NUMBER_3  &kp KP_PLUS
+&trans    &trans        &trans     &trans  &kp LEFT_SHIFT    &trans               &trans        &trans
             >;
         };
 
         layer_3 {
             display-name = "FUNCTION";
             bindings = <
-&kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10
-&none   &none   &none   &none   &none   &none   &none   &none   &none   &none
-&none   &none   &none   &none   &none   &none   &none   &none   &none   &none    &none  &none
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp F1   &kp F2   &kp F3  &kp F4  &kp F5  &kp F6                &kp F7                &kp F8        &kp F9           &kp F10
+&kp F11  &kp F12  &trans  &trans  &trans  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp C_VOL_DN  &kp C_VOLUME_UP  &trans
+&trans   &trans   &trans  &trans  &trans  &trans                &trans                &trans        &trans           &trans   &trans  &trans
+&trans   &trans   &trans  &trans  &trans  &trans                &trans                &trans
             >;
         };
 
