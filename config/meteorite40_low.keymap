@@ -66,10 +66,10 @@
         layer_1 {
             display-name = "SYMBOLS";
             bindings = <
-&kp EXCL             &kp AT            &kp HASH   &kp DLLR           &kp PRCNT        &trans    &trans    &trans  &trans  &trans
-&kp CARET            &kp AMPS          &kp MINUS  &kp RIGHT_BRACKET  &kp RIGHT_BRACE  &trans    &trans    &trans  &trans  &trans
-&parentheses_in_one  &brackets_in_one  &none      &none              &none            &mkp MB4  &mkp MB5  &trans  &trans  &trans  &trans  &trans
-&trans               &trans            &trans     &trans             &trans           &kp DEL   &trans    &trans
+&kp EXCL             &kp QUESTION      &kp HASH   &kp DLLR    &kp PRCNT       &trans    &trans    &trans  &trans  &trans
+&kp AT               &kp AMPS          &kp CARET  &kp INT_RO  &kp LS(INT_RO)  &trans    &trans    &trans  &trans  &trans
+&parentheses_in_one  &brackets_in_one  &none      &none       &none           &mkp MB4  &mkp MB5  &trans  &trans  &trans  &trans  &trans
+&trans               &trans            &trans     &trans      &trans          &kp DEL   &trans    &trans
             >;
         };
 
