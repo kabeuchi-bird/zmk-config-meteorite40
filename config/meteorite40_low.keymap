@@ -65,9 +65,14 @@
             layers = <0>;
         };
 
-        op {
+        prtsc_symbol {
             bindings = <&lt 1 PRINTSCREEN>;
             key-positions = <8 9>;
+        };
+
+        middle_click {
+            bindings = <&mkp MB3>;
+            key-positions = <25 26>;
         };
     };
 
@@ -88,10 +93,10 @@
         layer_1 {
             display-name = "SYMBOLS";
             bindings = <
-&kp EXCL   &kp QUESTION   &kp HASH   &kp DLLR  &kp PRCNT     &none     &none     &none   &none  &none
-&kp AT     &kp AMPS       &kp CARET  &kp INT1  &kp LS(INT1)  &none     &none     &none   &none  &none
-&kp COLON  &kp SEMICOLON  &kp APOS   &none     &none         &mkp MB4  &mkp MB5  &none   &none  &none  &none  &none
-&trans     &trans         &trans     &trans    &trans        &kp DEL   &trans    &trans
+&kp EXCL   &kp QUESTION   &kp HASH   &kp DLLR      &kp PRCNT      &none     &none     &none   &none  &none
+&kp AT     &kp AMPS       &kp CARET  &kp INT1      &kp LS(INT1)   &none     &none     &none   &none  &none
+&kp COLON  &kp SEMICOLON  &kp APOS   &kp LS(LBKT)  &kp LS(EQUAL)  &mkp MB4  &mkp MB5  &none   &none  &none  &none  &none
+&trans     &trans         &trans     &trans        &trans         &kp DEL   &trans    &trans
             >;
         };
 
